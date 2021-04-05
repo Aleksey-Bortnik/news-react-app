@@ -1,0 +1,38 @@
+.App_wrapper {
+    margin: 20px;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(238, 237, 237);
+}
+
+.App_all-news {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.App_title {
+    text-align: center;
+    margin: 20px;
+    font-size: min(30px, calc(2vw + 10px));
+}
+
+.App_news-block {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(43, 43, 43);
+    text-align: center;
+    border-radius: 9px;
+}
+
+.App_image-block {
+    display: flex;
+    justify-content: center;
+}
+
+.App_image {
+    margin: 20px 0;
+    width: min(200px, calc(50vw - 60px));
+}
+
+.App_news__title {
+    font-size: min(25px, calc(2vw + 7px));
+}
